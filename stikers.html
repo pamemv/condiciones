@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Stickers</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="container-text">
+          <div>
+            <h1>Stickers Studio Ghibli</h1>
+          </div>
+          <div>
+            <h3>Lleva gratis hasta 10 stickers!</h3>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="container-sticker">
+          <div class="img-sticker">
+            <img src="./assets/img/sticker-1.png" alt="Ponyo" />
+            <input
+              type="number"
+              id="input-sticker-1"
+              min="0"
+              max="10"
+              value="0"
+            />
+          </div>
+
+          <div class="img-sticker">
+            <img src="./assets/img/sticker-2.png" alt="Gato bus" />
+            <input
+              type="number"
+              id="input-sticker-2"
+              min="0"
+              max="10"
+              value="0"
+            />
+          </div>
+
+          <div class="img-sticker">
+            <img src="./assets/img/sticker-3.png" alt="Princesa Mononoke" />
+            <input
+              type="number"
+              id="input-sticker-3"
+              min="0"
+              max="10"
+              value="0"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container-button">
+        <p id="parrafo"></p>
+        <button id="sticker-btn" onclick="metodoSticker()">Verificar</button>
+      </div>
+    </div>
+    <script src="./assets/js/stikers.js"></script>
+  </body>
+</html>
