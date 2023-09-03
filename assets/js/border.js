@@ -1,5 +1,5 @@
 /*border*/
-function metodo() {
+function metodoBorder() {
   const img = document.querySelector("#img");
 
   img.style.border === "2px solid red"
