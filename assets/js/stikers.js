@@ -10,9 +10,7 @@ function metodoSticker() {
 
   const parrafo = document.querySelector("#parrafo");
 
-  if (Number(total) <= 10) {
-    parrafo.innerHTML = "Llevas " + total + " stickers";
-  } else {
-    parrafo.innerHTML = "Llevas demasiados stickers " + "(" + total + ")";
-  }
+  Number(total) <= 10
+    ? (parrafo.innerHTML = "Llevas " + total + " stickers")
+    : (parrafo.innerHTML = "Llevas demasiados stickers " + "(" + total + ")");
 }
